@@ -27,10 +27,7 @@ class Header extends Component {
               <a href="#" className="brand-logo">UpStar Music</a>
               <ul id="nav-mobile" className="right hide-on-med-and-down">
                 <li>
-                  <Link
-                    to={`/artists/${this.state.id}`}
-                    onClick={this.setLink.bind(this)}
-                  >
+                  <Link to={`/artists/${this.state.id}`} onClick={this.setLink.bind(this)}>
                     Random Artist
                   </Link>
                 </li>
